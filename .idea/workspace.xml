@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28b2ba1c-0b1b-4bd1-96cc-a7406e84584d" name="Changes" comment="">
+    <list default="true" id="28b2ba1c-0b1b-4bd1-96cc-a7406e84584d" name="Changes" comment="backend done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calcmain/CalcController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calcmain/CalcController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calcmain/calc.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/calcmain/calc.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,9 +65,21 @@
       <option name="presentableId" value="Default" />
       <updated>1792007909961</updated>
     </task>
+    <task id="LOCAL−00001" summary="backend done">
+      <option name="closed" value="true" />
+      <created>1792085952888</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1792085952890</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="backend done" />
+    <option name="LAST_COMMIT_MESSAGE" value="backend done" />
   </component>
 </project>

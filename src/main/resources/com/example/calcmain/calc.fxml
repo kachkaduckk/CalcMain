@@ -10,95 +10,95 @@
   <items>
     <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="82.0" prefWidth="318.0">
          <children>
-            <TextField fx:id="result" alignment="CENTER_RIGHT" layoutX="-1.0" layoutY="-3.0" prefHeight="102.0" prefWidth="350.0" promptText="0.00" text="0.00">
+            <TextField fx:id="result" alignment="CENTER_RIGHT" layoutX="-1.0" layoutY="-3.0" prefHeight="102.0" prefWidth="350.0" promptText="0.00" style="-fx-background-color: LIGHTBLUE;" text="0.00">
                <font>
-                  <Font size="48.0" />
+                  <Font name="SansSerif Regular" size="48.0" />
                </font>
             </TextField>
          </children></AnchorPane>
-    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="499.0" prefWidth="348.0">
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="499.0" prefWidth="348.0" style="-fx-background-color: LIGHTCORAL;">
          <children>
-            <Button layoutX="39.0" layoutY="285.0" mnemonicParsing="false" onAction="#numButton" prefHeight="62.0" prefWidth="62.0" text="1">
+            <Button layoutX="23.0" layoutY="290.0" mnemonicParsing="false" onAction="#numButton" prefHeight="71.0" prefWidth="70.0" text="1">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button layoutX="108.0" layoutY="285.0" mnemonicParsing="false" onAction="#numButton" prefHeight="62.0" prefWidth="62.0" text="2">
+            <Button layoutX="100.0" layoutY="290.0" mnemonicParsing="false" onAction="#numButton" prefHeight="71.0" prefWidth="70.0" text="2">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button layoutX="177.0" layoutY="285.0" mnemonicParsing="false" onAction="#numButton" prefHeight="62.0" prefWidth="62.0" text="3">
+            <Button layoutX="177.0" layoutY="290.0" mnemonicParsing="false" onAction="#numButton" prefHeight="71.0" prefWidth="70.0" text="3">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button layoutX="39.0" layoutY="219.0" mnemonicParsing="false" onAction="#numButton" prefHeight="62.0" prefWidth="62.0" text="4">
+            <Button layoutX="23.0" layoutY="213.0" mnemonicParsing="false" onAction="#numButton" prefHeight="71.0" prefWidth="70.0" text="4">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button layoutX="108.0" layoutY="219.0" mnemonicParsing="false" onAction="#numButton" prefHeight="62.0" prefWidth="62.0" text="5">
+            <Button layoutX="100.0" layoutY="213.0" mnemonicParsing="false" onAction="#numButton" prefHeight="71.0" prefWidth="70.0" text="5">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button layoutX="177.0" layoutY="219.0" mnemonicParsing="false" onAction="#numButton" prefHeight="62.0" prefWidth="62.0" text="6">
+            <Button layoutX="177.0" layoutY="213.0" mnemonicParsing="false" onAction="#numButton" prefHeight="71.0" prefWidth="70.0" text="6">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button layoutX="39.0" layoutY="149.0" mnemonicParsing="false" onAction="#numButton" prefHeight="62.0" prefWidth="62.0" text="7">
+            <Button layoutX="23.0" layoutY="135.0" mnemonicParsing="false" onAction="#numButton" prefHeight="71.0" prefWidth="70.0" text="7">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button layoutX="108.0" layoutY="149.0" mnemonicParsing="false" onAction="#numButton" prefHeight="62.0" prefWidth="62.0" text="8">
+            <Button layoutX="100.0" layoutY="135.0" mnemonicParsing="false" onAction="#numButton" prefHeight="71.0" prefWidth="70.0" text="8">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button layoutX="177.0" layoutY="149.0" mnemonicParsing="false" onAction="#numButton" prefHeight="62.0" prefWidth="62.0" text="9">
+            <Button layoutX="177.0" layoutY="135.0" mnemonicParsing="false" onAction="#numButton" prefHeight="71.0" prefWidth="70.0" text="9">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button ellipsisString="D" layoutX="39.0" layoutY="80.0" mnemonicParsing="false" onAction="#delButton" prefHeight="62.0" prefWidth="62.0" text="DEL">
+            <Button ellipsisString="D" layoutX="23.0" layoutY="54.0" mnemonicParsing="false" onAction="#delButton" prefHeight="71.0" prefWidth="70.0" text="DEL">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button layoutX="108.0" layoutY="80.0" mnemonicParsing="false" onAction="#oppButton" prefHeight="62.0" prefWidth="62.0" text="/">
+            <Button layoutX="100.0" layoutY="54.0" mnemonicParsing="false" onAction="#oppButton" prefHeight="71.0" prefWidth="70.0" text="/">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button layoutX="177.0" layoutY="80.0" mnemonicParsing="false" onAction="#oppButton" prefHeight="62.0" prefWidth="62.0" text="*">
+            <Button layoutX="177.0" layoutY="54.0" mnemonicParsing="false" onAction="#oppButton" prefHeight="71.0" prefWidth="70.0" text="*">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button layoutX="39.0" layoutY="353.0" mnemonicParsing="false" onAction="#numButton" prefHeight="62.0" prefWidth="132.0" text="0">
+            <Button layoutX="23.0" layoutY="369.0" mnemonicParsing="false" onAction="#numButton" prefHeight="71.0" prefWidth="147.0" text="0">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button layoutX="177.0" layoutY="353.0" mnemonicParsing="false" onAction="#numButton" prefHeight="62.0" prefWidth="62.0" text=".">
+            <Button layoutX="177.0" layoutY="369.0" mnemonicParsing="false" onAction="#numButton" prefHeight="71.0" prefWidth="70.0" text=".">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button layoutX="247.0" layoutY="285.0" mnemonicParsing="false" onAction="#eqButton" prefHeight="130.0" prefWidth="62.0" text="=">
+            <Button layoutX="255.0" layoutY="132.0" mnemonicParsing="false" onAction="#eqButton" prefHeight="148.0" prefWidth="70.0" text="=">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button alignment="CENTER" layoutX="247.0" layoutY="146.0" mnemonicParsing="false" onAction="#oppButton" prefHeight="136.0" prefWidth="62.0" text="+">
+            <Button alignment="CENTER" layoutX="255.0" layoutY="287.0" mnemonicParsing="false" onAction="#oppButton" prefHeight="154.0" prefWidth="70.0" text="+">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
             </Button>
-            <Button layoutX="247.0" layoutY="80.0" mnemonicParsing="false" onAction="#oppButton" prefHeight="62.0" prefWidth="62.0" text="-">
+            <Button layoutX="255.0" layoutY="54.0" mnemonicParsing="false" onAction="#oppButton" prefHeight="71.0" prefWidth="70.0" text="-">
                <font>
                   <Font name="System Bold" size="24.0" />
                </font>
