@@ -12,7 +12,7 @@ public class Calc extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Calc.class.getResource("calc.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 350, 600, Color.LIGHTCORAL);
+        Scene scene = new Scene(fxmlLoader.load(), 350, 600);
         stage.resizableProperty().setValue(false);
         stage.setTitle("Calculator");
         stage.setScene(scene);

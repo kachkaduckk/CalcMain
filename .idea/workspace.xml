@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28b2ba1c-0b1b-4bd1-96cc-a7406e84584d" name="Changes" comment="backend done">
+    <list default="true" id="28b2ba1c-0b1b-4bd1-96cc-a7406e84584d" name="Changes" comment="new buttons, memory not done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calcmain/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calcmain/Calc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/calcmain/CalcController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/calcmain/CalcController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/calcmain/calc.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/calcmain/calc.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +26,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/kachkaduckk/CalcMain.git&quot;,
-    &quot;accountId&quot;: &quot;ce01e33b-ebac-4a59-8ae9-a7b76afd5686&quot;
+    &quot;url&quot;: &quot;https://github.com/kachkaduckk/CalcMain&quot;,
+    &quot;accountId&quot;: &quot;efd8d310-d2e7-4cdf-995c-f8d087cb2dd4&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -37,23 +39,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Calc.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/bludini/CalcMain&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Calc.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/bludini/CalcMain",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
       </set>
     </attachedChunks>
   </component>
@@ -80,6 +89,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="backend done" />
-    <option name="LAST_COMMIT_MESSAGE" value="backend done" />
+    <MESSAGE value="new buttons, memory not done" />
+    <option name="LAST_COMMIT_MESSAGE" value="new buttons, memory not done" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

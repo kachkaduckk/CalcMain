@@ -3,15 +3,16 @@ package com.example.calcmain;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
 public class CalcController {
     @FXML
     public TextField result;
+
     static double first;
     static double second;
-    static String operator;
+    static String operator = "";
+    static private double memory = 0;
 
     @FXML
     private void numButton (ActionEvent e){
@@ -23,9 +24,10 @@ public class CalcController {
     }
 
     @FXML
-    private void oppButton (ActionEvent e){
-        Button clickedOpp = (Button) e.getSource();
-        operator = clickedOpp.getText();
+    private void opButton(ActionEvent e){
+        eqButton(e);
+        Button clickedOp = (Button) e.getSource();
+        operator = clickedOp.getText();
         first = Double.parseDouble(result.getText());
         result.setText("");
     }
@@ -47,6 +49,26 @@ public class CalcController {
             case("-") -> result.setText(String.valueOf(first - second));
             case("*") -> result.setText(String.valueOf(first * second));
             case("/") -> result.setText(String.valueOf(first / second));
+            case("^n") -> result.setText(String.valueOf(Math.pow(first, second)));
+            case("n√") -> result.setText(String.valueOf(Math.pow(second, 1 / first)));
+            default -> result.setText(result.getText());
+        }
+        operator="";
+    }
+
+    @FXML
+    private void quadButton (ActionEvent e){
+        if (!result.getText().isEmpty()) {
+            double number = Double.parseDouble(result.getText());
+            result.setText(String.valueOf(Math.pow(number, 2)));
+        }
+    }
+
+    @FXML
+    private void sqrtButton (ActionEvent e){
+        if (!result.getText().isEmpty()) {
+            double number = Double.parseDouble(result.getText());
+            result.setText(String.valueOf(Math.pow(number, 0.5)));
         }
     }
 }
