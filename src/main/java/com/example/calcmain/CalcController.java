@@ -71,4 +71,20 @@ public class CalcController {
             result.setText(String.valueOf(Math.pow(number, 0.5)));
         }
     }
+
+    @FXML
+    private void memoButton (ActionEvent e){
+        result.setText(String.valueOf(memory));
+    }
+
+    @FXML
+    private void memoOpButton (ActionEvent  e){
+        Button clickedMemoOp = (Button) e.getSource();
+        String memoOp = clickedMemoOp.getText();
+        switch (memoOp){
+            case("M+") -> memory += Double.parseDouble(result.getText());
+            case("M-") -> memory -= Double.parseDouble(result.getText());
+        }
+        result.setText("");
+    }
 }
